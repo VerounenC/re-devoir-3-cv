@@ -1,15 +1,17 @@
+.resume-container {
+    display: flex;
+    justify-content: center;
+}
+ 
 .profile-sections {
     width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
     background-color: #e3e3e3;
     box-sizing: border-box;
     padding: 30px;
 }
 
-.profile-sections h2 {
+.profile-sections h2,
+.resume h2 {
     color: #17abb3;
     border-bottom:  1px solid #33333317;
     padding-bottom: 5px;
@@ -57,4 +59,54 @@
 .interests ul li::marker {
     font-size: 1.5em;
     color: #17abb3;
+}
+
+.resume {
+    width: 70%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.overview,
+.education-section,
+.experience-section {
+    margin: auto;
+    width: 700px;
+}
+
+.overview p {
+    text-indent: 20px;
+    text-align:justify ;
+}
+
+.overview p span {
+    display: block;
+}
+
+.education-item,
+.experience-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-title h3,
+.job-title h3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.education-title p,
+.job-title p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.education-period,
+.job-period {
+    color: #17abb3;
+    font-size: 1.2em;
 }
