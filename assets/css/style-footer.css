@@ -1,0 +1,34 @@
+footer {
+    background-color: #17abb3;
+    
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px 10px 5px;
+    box-sizing: border-box;
+}
+
+.social-icon a:hover {
+    opacity: 0.5;
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.time-container small {
+    color: #fff;
+    padding:5px 10px 10px
+}
