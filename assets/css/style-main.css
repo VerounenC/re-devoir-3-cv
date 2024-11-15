@@ -1,0 +1,60 @@
+.profile-sections {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e3e3e3;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.profile-sections h2 {
+    color: #17abb3;
+    border-bottom:  1px solid #33333317;
+    padding-bottom: 5px;
+}
+
+.skills,
+.languages,
+.qualities,
+.interests {
+    margin: auto;
+    width: 250px;
+}
+
+.skills ul,
+.languages ul {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+.skills ul li,
+.languages ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.stars {
+    color: #17abb3;
+}
+
+.proficiency {
+    font-weight: lighter;
+}
+
+.qualities ul,
+.interests ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.qualities ul li::marker,
+.interests ul li::marker {
+    font-size: 1.5em;
+    color: #17abb3;
+}
